@@ -1,0 +1,54 @@
+{
+  "name": "daskeyboard-applet--data-usage",
+  "displayName": "Vodafone Data Usage",
+  "version": "1.0.0",
+  "description": "Displays data usage information on a Das Keyboard Q key.",
+  "longDescription": "Keep an eye on your data usage with a color-coded key on your Das Keyboard Q!",
+  "officialProductName": "Vodafone Data Usage Applet",
+  "appUrl": "",
+  "isSingleton": true,
+  "videoUrl": "",
+  "icon": "assets/icon.png",
+  "image": "assets/image.png",
+  "publisher": "inxomnyaa",
+  "authorName": "inxomnyaa",
+  "authorUrl": "https://github.com/inxomnyaa",
+  "issuesUrl": "https://github.com/inxomnyaa/daskeyboard-applet--data-usage/issues",
+  "homePageUrl": "https://github.com/inxomnyaa/daskeyboard-applet--data-usage",
+  "developerRepoUrl": "https://github.com/inxomnyaa/daskeyboard-applet--data-usage",
+  "licenseUrl": "https://opensource.org/licenses/MIT",
+  "changelogUrl": "CHANGELOG.md",
+  "license": "MIT",
+  "readMeUrl": "README.md",
+  "readMeEndUserUrl": "README_ENDUSER.md",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha"
+  },
+  "qConfig": {
+    "geometry": {
+      "width": 1,
+      "height": 1,
+      "defaults": {
+        "origin": {
+          "x": 17,
+          "y": 2
+        }
+      }
+    }
+  },
+  "engines": {
+    "das-keyboard-q": "4.1.3"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "daskeyboard-applet": "^2.11.5",
+    "modules": "^0.4.0",
+    "yarn": "2.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "mocha": "11.0.0"
+  }
+}
